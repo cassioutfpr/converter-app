@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					B2DB88E61CF4D95300D67703 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 2S294KA9RU;
 					};
 					B2DB88FA1CF4D95400D67703 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -399,7 +400,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Converter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Morales.Converter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -410,7 +413,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Converter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Morales.Converter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +487,7 @@
 				B2DB89111CF4D95400D67703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2DB89121CF4D95400D67703 /* Build configuration list for PBXNativeTarget "ConverterTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +496,7 @@
 				B2DB89141CF4D95400D67703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B2DB89151CF4D95400D67703 /* Build configuration list for PBXNativeTarget "ConverterUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +505,7 @@
 				B2DB89171CF4D95400D67703 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
